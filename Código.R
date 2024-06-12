@@ -91,7 +91,7 @@ grafico3 <- ggplot(transectos, aes(x = Normal, y = EPR, fill = Categoria)) +
 
 print(grafico3)
 
-# Tabla chida
+# Tabla
 library(sf)
 transectos <- st_read("C:/Imagenes Satelitales/r2/transectos_tasas.shp")
 print(transectos)
