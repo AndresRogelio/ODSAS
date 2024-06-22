@@ -15,5 +15,8 @@ La línea costera, siendo la frontera entre el mar y la tierra, es afectada por 
 - SAGA GIS
 - RStudio con los paquetes CoastCR y sf instalado
 
-### Citación
+## Citación
 (Próximamente).
+
+## Referencia
+Gómez-Pazo, A., Payo, A., Paz-Delgado, M. V., & Delgadillo-Calzadilla, M. A. (2021). Open Digital Shoreline Analysis System: ODSAS v1.0. Journal of Marine Science and Engineering, 10(1), 26. https://doi.org/10.3390/jmse10010026
