@@ -9,8 +9,11 @@ La línea costera, siendo la frontera entre el mar y la tierra, es afectada por 
 ## Contenido del Repositorio
 
 - **`README.md`**: Este archivo que proporciona una visión general del proyecto.
-- **`Codigo.R`**: Carpeta que contiene los scripts y códigos utilizados en el análisis.
+- **`Codigo.R`**: Carpeta que contiene los códigos para crear, manipular y graficar los datos.
 
 ### Requisitos
 - SAGA GIS
 - RStudio con el paquete CoastCR y sf instalado
+
+### Citación
+(Proximamente).
