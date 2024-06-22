@@ -16,4 +16,4 @@ La línea costera, siendo la frontera entre el mar y la tierra, es afectada por 
 - RStudio con el paquete CoastCR y sf instalado
 
 ### Citación
-(Proximamente).
+(Próximamente).
