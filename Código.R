@@ -74,23 +74,6 @@ grafico2 <- ggplot(data = transectos, aes(x = Normal, y = NSM)) +
         axis.title = element_text(color = "black"), plot.title = element_text(hjust = 0.5))
 print(grafico2)
 
-# Definir el valor umbral para la clasificación
-umbral <- 0
-
-# Crear la columna de categoría basada en el valor umbral
-transectos$Categoria <- ifelse(transectos$EPR < umbral, "Erosión", "Acreción")
-
-grafico3 <- ggplot(transectos, aes(x = Normal, y = EPR, fill = Categoria)) +
-  geom_bar(stat = "identity", linewidth = 0.5) +
-  labs(x = "No. de transectos", y = "EPR (m/año)", title = "Tasa de cambio (m/año)") +
-  theme_minimal() +
-  theme(axis.title = element_text(size = 12),
-        plot.title = element_text(size = 16, face = "bold", hjust = 0.5)) +
-  coord_flip() +
-  guides(fill = guide_legend(title.position = "top", title.hjust = 0.5, title.vjust = 0, position = "bottom")) + scale_x_reverse() + scale_fill_manual(values = c("Erosión" = "red", "Acreción" = "blue"))
-
-print(grafico3)
-
 # Tabla
 library(sf)
 transectos <- st_read("C:/Imagenes Satelitales/r2/transectos_tasas.shp")
